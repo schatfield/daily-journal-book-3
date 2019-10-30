@@ -1,3 +1,5 @@
+
+
 const entryManager = {
 
   makeJournalEntryComponent(journalEntry) {
@@ -12,3 +14,5 @@ const entryManager = {
     `
   }
 }
+
+export default entryManager
