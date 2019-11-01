@@ -16,31 +16,49 @@
     <form>
         <fieldset>
             <label for="date-input">Date of entry</label>
+            <br>
             <input type="date" id="date-input" name="date-input">
+            </br>
         </fieldset>
         <fieldset>
             <label for="concept-input">Concepts covered</label>
+            <br>
             <input type="text" id="concept-input" name="concept-input">
+            </br>
         </fieldset>
         <fieldset>
             <label for="entry-input">Journal entry</label>
+            <br>
             <textarea id="entry-input" name="entry-input"></textarea>
-        </fieldset>
+            </br>
+            </fieldset>
         <fieldset>
             <label for="mood-input">Mood</label>
+            <br>
             <select class="mood" id="mood" name="mood-input">
                 <option value="Amazing">Amazing</option>
                 <option value="Murderous">Murderous</option>
                 <option value="Ok">Ok</option>
+                </br>
+            </select>
             </select>
         </fieldset>
-        <button type="button" id="record-journal-entry"> Record Journal Entry</button>
+        <fieldset>
+            <legend>Filter Journal Entries By Mood</legend>
+            <input type="radio" id="sad-mood" name="sad-mood">
+            <label for="sad-mood">Sad</label>
+            <input type="radio" id="sad-mood" name="sad-mood">
+            <label for="sad-mood">Sad</label>
+            <input type="radio" id="sad-mood" name="sad-mood">
+            <label for="sad-mood">Sad</label>
+        </fieldset>
     </form>
+    <button type="button" id="record-journal-entry"> Record Journal Entry</button>
 
     <article class="entryLog">
 
     </article>
-    
+
     <script src="./scripts/journal.js" type="module"></script>
 </body>
 
