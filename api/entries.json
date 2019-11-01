@@ -1,25 +1,74 @@
 {
-    "entries": [
-        {
-            "id": 1,
-            "date": "07/24/2018",
-            "concept": "Array methods",
-            "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-            "mood": "Ok"
-        },
-        {
-            "id": 2,
-            "date": "08/02/2018",
-            "concept": "Fetch calls",
-            "entry": "How to get data from an API",
-            "mood": "Ok"
-        },
-        {
-            "id": 3,
-            "date": "07/07/2018",
-            "concept": "CSS Selectors",
-            "entry": "How to use classes and ids to apply CSS to elements on the DOM",
-            "mood": "Ok"
-        }
-    ]
+  "entries": [
+    {
+      "id": 1,
+      "date": "07/24/2018",
+      "concept": "Array methods",
+      "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
+      "mood": "Ok"
+    },
+    {
+      "id": 2,
+      "date": "08/02/2018",
+      "concept": "Fetch calls",
+      "entry": "How to get data from an API",
+      "mood": "Ok"
+    },
+    {
+      "id": 3,
+      "date": "07/07/2018",
+      "concept": "CSS Selectors",
+      "entry": "How to use classes and ids to apply CSS to elements on the DOM",
+      "mood": "Ok"
+    },
+    {
+      "date": "",
+      "concept": "factory functions",
+      "content": "yay!",
+      "mood": "Amazing",
+      "id": 4
+    },
+    {
+      "date": "2019-10-31",
+      "concept": "factory functions",
+      "content": "CELEBRATING HALLOWEEN WITH JAVASCRIPT\nVERY SCARY",
+      "mood": "Amazing",
+      "id": 5
+    },
+    {
+      "date": "",
+      "concept": "",
+      "content": "",
+      "mood": "Amazing",
+      "id": 6
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "i AM SO GOOD AT JAVASCRIPT",
+      "mood": "Amazing",
+      "id": 7
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "Happy Halloweeeeeeeen",
+      "mood": "Murderous",
+      "id": 8
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "hi",
+      "mood": "Amazing",
+      "id": 9
+    },
+    {
+      "date": "",
+      "concept": "",
+      "entry": "moved the button from the form",
+      "mood": "Amazing",
+      "id": 10
+    }
+  ]
 }
