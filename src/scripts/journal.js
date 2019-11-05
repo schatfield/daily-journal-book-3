@@ -1,7 +1,7 @@
+  
 /*
     Main application logic that uses the functions and objects
     defined in the other JavaScript files.
-
     Change the fake variable names below to what they should be
     to get the data and display it.
 */
@@ -9,7 +9,8 @@
 
 import API from "./data.js"
 import renderDom from "./entriesDOM.js"
-import buildEntry from "./factoryFunction.js"
+import buildEntry from "./buildEntryFactoryFunction.js"
+import radioButtonEventManager from "./radioButtonEventManager.js"
 
 const allJournalEntries = () => {
     API.getJournalEntries()
@@ -50,3 +51,5 @@ const attachEventListenerToRecordButton = () => {
 
 
 attachEventListenerToRecordButton()
+
+radioButtonEventManager.attachEventListenerToRadioButtons()
