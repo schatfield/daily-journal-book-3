@@ -8,9 +8,9 @@ const radioButtonEventManager = {
 
     handleRadioButtonEvent(event) {
         console.log(event)
+        // console logging the event will help you find the path you need your vaiable below to equal to
         const selectedMood = event.target.id
         console.log(selectedMood)
-
 
 
         API.getJournalEntries().then(response => {
@@ -34,3 +34,4 @@ const radioButtonEventManager = {
 }
 
 export default radioButtonEventManager 
+
