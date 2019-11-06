@@ -12,6 +12,7 @@ import renderDom from "./entriesDOM.js"
 import radioButtonEventManager from "./radioButtonEventManager.js"
 import deleteButtonEventManager from "./deleteButtonEventManager.js"
 import recordEntryButtonEventManager from "./recordEntryButtonEventManager.js"
+import buildEntry from "./buildEntryFactoryFunction.js"
 
 const allJournalEntries = () => {
     API.getJournalEntries()
@@ -28,3 +29,5 @@ allJournalEntries()
 recordEntryButtonEventManager.attachEventListenerToRecordButton()
 radioButtonEventManager.attachEventListenerToRadioButtons()
 recordEntryButtonEventManager.attachEventListenerToRecordButton()
+
+

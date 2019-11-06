@@ -1,6 +1,8 @@
 
 import buildEntry from "./buildEntryFactoryFunction.js"
 import deleteButtonEventManager from "./deleteButtonEventManager.js"
+import API from "./data.js"
+import renderDom from "./entriesDOM.js"
 
 const recordEntryButtonEventManager = {
 
