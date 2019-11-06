@@ -1,6 +1,6 @@
 
 
-// this is your factory functionto put your dom references(your data) into an object. you call this function on journal.js
+// this is your factory functiont put your dom references(your data) into an object. you call this function on journal.js
 
 const buildEntry = (date, concept, entry, mood) => {
     const newJournalEntry = {
@@ -13,3 +13,4 @@ const buildEntry = (date, concept, entry, mood) => {
 }
 
 export default buildEntry
+
