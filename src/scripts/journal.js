@@ -13,12 +13,14 @@ import radioButtonEventManager from "./radioButtonEventManager.js"
 import deleteButtonEventManager from "./deleteButtonEventManager.js"
 import recordEntryButtonEventManager from "./recordEntryButtonEventManager.js"
 import buildEntry from "./buildEntryFactoryFunction.js"
+import editButtonEventManager from "./editButtonEventManager.js"
 
 const allJournalEntries = () => {
     API.getJournalEntries()
         .then(response=> {
             renderDom.renderJournalEntries(response)
             deleteButtonEventManager.attachEventListenerToDeleteButton()
+            editButtonEventManager.attachEventlistenerToEditButton()
         })
 }
 
@@ -26,6 +28,7 @@ const allJournalEntries = () => {
 // function calls from other pages- make notes on this
 
 allJournalEntries()
+renderDom.renderJournalEntryForm()
 recordEntryButtonEventManager.attachEventListenerToRecordButton()
 radioButtonEventManager.attachEventListenerToRadioButtons()
 recordEntryButtonEventManager.attachEventListenerToRecordButton()

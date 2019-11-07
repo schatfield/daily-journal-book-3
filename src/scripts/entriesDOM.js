@@ -15,6 +15,10 @@ const renderDom = {
     })
     const logArticle = document.querySelector(".entryLog")
     logArticle.innerHTML = HtmlForAllEntries
+  },
+  renderJournalEntryForm() {
+    const entryFormHtml = document.getElementById("journal-entry-form")
+    entryFormHtml.innerHTML = entryManager.makeJournalEntryForm()
   }
 }
 
